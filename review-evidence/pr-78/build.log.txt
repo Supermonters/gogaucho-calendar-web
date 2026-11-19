@@ -1,0 +1,66 @@
+
+> web@0.0.0 build
+> vite build
+
+The CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.
+vite v5.4.21 building for production...
+transforming...
+✓ 1141 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/manifest.webmanifest                            0.49 kB
+dist/index.html                                      1.55 kB │ gzip:   0.61 kB
+dist/assets/marker-BRq07Rlb.webp                     7.25 kB
+dist/assets/portola-901rMV6u.jpg                    28.14 kB
+dist/assets/fire-BWneuE8r.svg                       59.19 kB │ gzip:   9.27 kB
+dist/assets/hero-night-4OaNBlxV.jpg                375.34 kB
+dist/assets/Bar-DHsaTMuj.css                         0.05 kB │ gzip:   0.07 kB
+dist/assets/Course-W-WEL6Q1.css                      0.13 kB │ gzip:   0.11 kB
+dist/assets/Class-BLe7OPj7.css                       0.17 kB │ gzip:   0.15 kB
+dist/assets/Privacy-B_T0RqWJ.css                     0.49 kB │ gzip:   0.29 kB
+dist/assets/Planner-DYbY78QA.css                     0.54 kB │ gzip:   0.23 kB
+dist/assets/Waitz-C7O65loh.css                       0.63 kB │ gzip:   0.18 kB
+dist/assets/Home-DEWAyhnx.css                        1.11 kB │ gzip:   0.39 kB
+dist/assets/Team-CXsGkm5G.css                        1.40 kB │ gzip:   0.50 kB
+dist/assets/Map-M7DVKro2.css                         5.29 kB │ gzip:   1.38 kB
+dist/assets/index-C8tiY71J.css                      27.51 kB │ gzip:   5.65 kB
+dist/assets/_plugin-vue_export-helper-DlAUqK2U.js    0.09 kB │ gzip:   0.10 kB
+dist/assets/debounce-_YAMy4Yi.js                     0.11 kB │ gzip:   0.12 kB
+dist/assets/XMarkIcon-K7D3MyX2.js                    0.35 kB │ gzip:   0.27 kB
+dist/assets/InformationCircleIcon-Cv1Evs2n.js        0.48 kB │ gzip:   0.35 kB
+dist/assets/MapPinIcon-BJaBzMgm.js                   0.51 kB │ gzip:   0.32 kB
+dist/assets/BookOpenIcon-C6jFn_Sd.js                 0.57 kB │ gzip:   0.37 kB
+dist/assets/LabelSwitch-EZBHXlPk.js                  0.71 kB │ gzip:   0.46 kB
+dist/assets/Wrapper-s-O3Wc0I.js                      0.82 kB │ gzip:   0.51 kB
+dist/assets/LinkCard-Bhpt2ttY.js                     0.83 kB │ gzip:   0.51 kB
+dist/assets/Link-B-Y-9NFT.js                         0.87 kB │ gzip:   0.50 kB
+dist/assets/PanelWrapper-DDyH04Ak.js                 1.19 kB │ gzip:   0.74 kB
+dist/assets/MapIcon-BIYGHwSl.js                      1.38 kB │ gzip:   0.66 kB
+dist/assets/Waitz-CoQwb83t.js                        2.25 kB │ gzip:   1.15 kB
+dist/assets/Instructor-CA2-fhBr.js                   2.42 kB │ gzip:   1.31 kB
+dist/assets/lookup-BAKJqtJ5.js                       2.97 kB │ gzip:   1.56 kB
+dist/assets/links-ByNHsaTe.js                        3.54 kB │ gzip:   1.56 kB
+dist/assets/About-CqTJw9I4.js                        4.92 kB │ gzip:   2.11 kB
+dist/assets/workbox-window.prod.es5-BqEJf4Xk.js      5.71 kB │ gzip:   2.34 kB
+dist/assets/Schedule-D--CZbx6.js                     6.45 kB │ gzip:   2.68 kB
+dist/assets/Team-B_SELd6S.js                         6.69 kB │ gzip:   1.31 kB
+dist/assets/Privacy-DJV5Oa7s.js                      6.85 kB │ gzip:   2.50 kB
+dist/assets/Planner-B_aahMh4.js                      8.24 kB │ gzip:   3.40 kB
+dist/assets/Bar-CuqNBJGg.js                          8.39 kB │ gzip:   3.54 kB
+dist/assets/Dining-CLgzhL4d.js                      10.15 kB │ gzip:   4.26 kB
+dist/assets/Home-CXt7XOlK.js                        10.60 kB │ gzip:   4.27 kB
+dist/assets/locations-DF_jEabf.js                   20.89 kB │ gzip:   6.33 kB
+dist/assets/Course-B4fxqEay.js                      36.75 kB │ gzip:  13.62 kB
+dist/assets/Class-40rBskzn.js                       38.60 kB │ gzip:  13.71 kB
+dist/assets/index-68602d24-llo-iKuw.js             111.77 kB │ gzip:  22.93 kB
+dist/assets/index-DSnZf3LT.js                      119.39 kB │ gzip:  47.09 kB
+dist/assets/Map-D2r7yA89.js                        322.47 kB │ gzip:  96.08 kB
+dist/assets/firebase-gWo281gx.js                   485.27 kB │ gzip: 116.01 kB
+✓ built in 1.51s
+
+PWA v0.19.8
+mode      generateSW
+precache  53 entries (1233.38 KiB)
+files generated
+  dist/sw.js
+  dist/workbox-9c191d2f.js

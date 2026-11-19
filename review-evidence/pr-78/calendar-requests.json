@@ -1,0 +1,58 @@
+{
+  "transport": "Local Calendar API recorder",
+  "redirectTarget": "https://calendar.google.com/calendar/r?cid=qa-calendar-id&authuser=personal%40example.test",
+  "requests": [
+    {
+      "method": "POST",
+      "path": "/__qa/calendar/v3/calendars",
+      "event": {
+        "summary": "UCSB Schedule Calendar Fall 2028",
+        "description": "Your editable UCSB schedule. Changes do not sync back or update your enrollment.",
+        "timeZone": "America/Los_Angeles"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/__qa/calendar/v3/calendars/qa-calendar-id/events",
+      "event": {
+        "summary": "QA FRIDAY",
+        "location": "Test room",
+        "description": "QA FRIDAY",
+        "start": {
+          "dateTime": "2028-09-29T09:00:00",
+          "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+          "dateTime": "2028-09-29T10:00:00",
+          "timeZone": "America/Los_Angeles"
+        },
+        "recurrence": [
+          "RRULE:FREQ=WEEKLY;UNTIL=20281209T075959Z",
+          "EXDATE;TZID=America/Los_Angeles:20281110T090000,20281124T090000"
+        ],
+        "visibility": "private"
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/__qa/calendar/v3/calendars/qa-calendar-id/events",
+      "event": {
+        "summary": "QA Friday custom",
+        "location": "Test lab",
+        "description": "custom",
+        "start": {
+          "dateTime": "2028-09-29T11:00:00",
+          "timeZone": "America/Los_Angeles"
+        },
+        "end": {
+          "dateTime": "2028-09-29T12:00:00",
+          "timeZone": "America/Los_Angeles"
+        },
+        "recurrence": [
+          "RRULE:FREQ=WEEKLY;UNTIL=20281209T075959Z"
+        ],
+        "visibility": "private"
+      }
+    }
+  ]
+}

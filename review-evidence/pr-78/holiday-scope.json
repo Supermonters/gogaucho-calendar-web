@@ -1,0 +1,44 @@
+{
+  "checkedQuarter": "Fall 2026",
+  "source": "https://registrar.sa.ucsb.edu/calendars/academic-calendars",
+  "firstInstructionDate": "2026-09-24",
+  "lastInstructionDate": "2026-12-04",
+  "noClassDates": [
+    "2026-11-11",
+    "2026-11-26",
+    "2026-11-27"
+  ],
+  "federalHolidayOutsideRegistrarClosures": "2026-10-12",
+  "mondayMeetingKept": true,
+  "wednesdayVeteransDayMeetingSkipped": true,
+  "fridayThanksgivingMeetingSkipped": true,
+  "fridayCustomEventKept": true,
+  "eventRecurrence": [
+    {
+      "summary": "Monday class",
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20261205T075959Z"
+      ]
+    },
+    {
+      "summary": "Wednesday class",
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20261205T075959Z",
+        "EXDATE;TZID=America/Los_Angeles:20261111T090000"
+      ]
+    },
+    {
+      "summary": "Friday class",
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20261205T075959Z",
+        "EXDATE;TZID=America/Los_Angeles:20261127T090000"
+      ]
+    },
+    {
+      "summary": "Custom Friday",
+      "recurrence": [
+        "RRULE:FREQ=WEEKLY;UNTIL=20261205T075959Z"
+      ]
+    }
+  ]
+}
